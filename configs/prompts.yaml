@@ -1,0 +1,3 @@
+# each prompt style, as the user's message; {question} is the problem
+plain: "{question}\nEnd your reply with \"Answer: <number>\"."
+step_by_step: "{question}\nThink step by step. End your reply with \"Answer: <number>\"."

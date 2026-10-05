@@ -1,0 +1,5 @@
+# which problems, and how a reply is graded
+split: test
+problems: 250
+subset_seed: 2026
+checker: answer_tag
