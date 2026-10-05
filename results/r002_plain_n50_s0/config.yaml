@@ -1,0 +1,32 @@
+command: python solve.py --prompt plain --seed 0 --out results/r002_plain_n50_s0 --problems
+  50
+commit: 929a9c41cbc961809477a376e12759d94163499d
+dirty: false
+started: '2026-10-05T06:00:45Z'
+prompt: plain
+seed: 0
+problems: 50
+model:
+  name: Qwen/Qwen2.5-0.5B-Instruct
+  revision: 7ae557604adf67be50417f59c2c2f167def9a775
+  path: models/qwen2.5-0.5b-instruct
+  dtype: bfloat16
+sampling:
+  temperature: 0.7
+  top_p: 0.8
+  top_k: 20
+  repetition_penalty: 1.1
+  max_new_tokens: 512
+  batch_size: 32
+eval:
+  split: test
+  problems: 250
+  subset_seed: 2026
+  checker: answer_tag
+prompts:
+  plain: '{question}
+
+    End your reply with "Answer: <number>".'
+  step_by_step: '{question}
+
+    Think step by step. End your reply with "Answer: <number>".'

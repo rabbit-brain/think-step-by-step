@@ -1,0 +1,4 @@
+2026-10-05T06:02:48Z  Qwen/Qwen2.5-0.5B-Instruct, step_by_step, seed 0, 50 problems, checker answer_tag
+2026-10-05T06:04:01Z  32/50 replies
+2026-10-05T06:04:35Z  50/50 replies
+2026-10-05T06:04:35Z  done: {"prompt": "step_by_step", "seed": 0, "problems": 50, "correct": 9, "accuracy": 18.0, "seconds": 108.0, "finished": "2026-10-05T06:04:35Z"}

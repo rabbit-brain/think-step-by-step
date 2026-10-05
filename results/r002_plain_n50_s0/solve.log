@@ -1,0 +1,4 @@
+2026-10-05T06:00:46Z  Qwen/Qwen2.5-0.5B-Instruct, plain, seed 0, 50 problems, checker answer_tag
+2026-10-05T06:02:01Z  32/50 replies
+2026-10-05T06:02:36Z  50/50 replies
+2026-10-05T06:02:36Z  done: {"prompt": "plain", "seed": 0, "problems": 50, "correct": 8, "accuracy": 16.0, "seconds": 111.4, "finished": "2026-10-05T06:02:36Z"}
