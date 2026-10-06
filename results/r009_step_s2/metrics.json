@@ -1,0 +1,9 @@
+{
+  "prompt": "step_by_step",
+  "seed": 2,
+  "problems": 250,
+  "correct": 40,
+  "accuracy": 16.0,
+  "seconds": 466.3,
+  "finished": "2026-10-06T02:32:29Z"
+}

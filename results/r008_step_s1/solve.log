@@ -1,0 +1,10 @@
+2026-10-06T02:16:28Z  Qwen/Qwen2.5-0.5B-Instruct, step_by_step, seed 1, 250 problems, checker answer_tag
+2026-10-06T02:17:34Z  32/250 replies
+2026-10-06T02:18:59Z  64/250 replies
+2026-10-06T02:20:02Z  96/250 replies
+2026-10-06T02:21:00Z  128/250 replies
+2026-10-06T02:21:55Z  160/250 replies
+2026-10-06T02:22:47Z  192/250 replies
+2026-10-06T02:23:51Z  224/250 replies
+2026-10-06T02:24:42Z  250/250 replies
+2026-10-06T02:24:42Z  done: {"prompt": "step_by_step", "seed": 1, "problems": 250, "correct": 38, "accuracy": 15.2, "seconds": 494.6, "finished": "2026-10-06T02:24:42Z"}
