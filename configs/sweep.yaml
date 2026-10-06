@@ -1,0 +1,4 @@
+# one run per cell of the grid, one after another
+grid:
+  prompt: [plain, step_by_step]
+  seed: [0, 1, 2]
