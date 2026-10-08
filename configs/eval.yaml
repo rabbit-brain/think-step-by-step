@@ -2,4 +2,4 @@
 split: test
 problems: 250
 subset_seed: 2026
-checker: answer_tag
+checker: last_number
