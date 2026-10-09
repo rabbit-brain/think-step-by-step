@@ -1,0 +1,10 @@
+2026-10-09T02:17:35Z  Qwen/Qwen2.5-0.5B-Instruct, worked_examples, seed 0, 250 problems, checker last_number
+2026-10-09T02:19:50Z  32/250 replies
+2026-10-09T02:21:37Z  64/250 replies
+2026-10-09T02:23:36Z  96/250 replies
+2026-10-09T02:25:13Z  128/250 replies
+2026-10-09T02:26:51Z  160/250 replies
+2026-10-09T02:28:28Z  192/250 replies
+2026-10-09T02:30:36Z  224/250 replies
+2026-10-09T02:31:55Z  250/250 replies
+2026-10-09T02:31:55Z  done: {"prompt": "worked_examples", "seed": 0, "problems": 250, "correct": 99, "accuracy": 39.6, "seconds": 865.8, "finished": "2026-10-09T02:31:55Z"}
