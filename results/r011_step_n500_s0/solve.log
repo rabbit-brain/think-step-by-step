@@ -1,0 +1,18 @@
+2026-10-12T01:40:45Z  Qwen/Qwen2.5-0.5B-Instruct, step_by_step, seed 0, 500 problems, checker last_number
+2026-10-12T01:41:47Z  32/500 replies
+2026-10-12T01:42:45Z  64/500 replies
+2026-10-12T01:43:48Z  96/500 replies
+2026-10-12T01:44:43Z  128/500 replies
+2026-10-12T01:45:39Z  160/500 replies
+2026-10-12T01:46:32Z  192/500 replies
+2026-10-12T01:47:33Z  224/500 replies
+2026-10-12T01:48:32Z  256/500 replies
+2026-10-12T01:49:49Z  288/500 replies
+2026-10-12T01:50:52Z  320/500 replies
+2026-10-12T01:52:22Z  352/500 replies
+2026-10-12T01:53:41Z  384/500 replies
+2026-10-12T01:54:46Z  416/500 replies
+2026-10-12T01:55:56Z  448/500 replies
+2026-10-12T01:57:09Z  480/500 replies
+2026-10-12T01:57:59Z  500/500 replies
+2026-10-12T01:57:59Z  done: {"prompt": "step_by_step", "seed": 0, "problems": 500, "correct": 211, "accuracy": 42.2, "seconds": 1034.5, "finished": "2026-10-12T01:57:59Z"}
