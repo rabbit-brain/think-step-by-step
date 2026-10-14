@@ -1,0 +1,10 @@
+2026-10-14T01:30:45Z  Qwen/Qwen2.5-0.5B-Instruct, plain, seed 0, 250 problems, checker last_number
+2026-10-14T01:32:00Z  32/250 replies
+2026-10-14T01:33:00Z  64/250 replies
+2026-10-14T01:34:00Z  96/250 replies
+2026-10-14T01:34:55Z  128/250 replies
+2026-10-14T01:35:49Z  160/250 replies
+2026-10-14T01:36:44Z  192/250 replies
+2026-10-14T01:37:48Z  224/250 replies
+2026-10-14T01:38:41Z  250/250 replies
+2026-10-14T01:38:41Z  done: {"prompt": "plain", "seed": 0, "problems": 250, "correct": 108, "accuracy": 43.2, "seconds": 476.9, "finished": "2026-10-14T01:38:41Z"}
