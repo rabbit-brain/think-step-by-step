@@ -1,0 +1,7 @@
+rb: 1
+kind: note
+id: nkdsotp
+text: "Left out of the record for now: the smoke run r001 (10 problems) and the 50-problem pilot r002 and r003, all graded by answer_tag at commit 929a9c4."
+by: human:ana
+at: "2026-10-23T23:11:59.491+00:00"
+via: cli

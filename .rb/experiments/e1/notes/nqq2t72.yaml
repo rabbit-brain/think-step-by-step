@@ -5,3 +5,7 @@ text: "The comparisons in logs/agent.log:644 (worked examples 22.9 above step by
 by: agent:claude-code
 at: "2026-10-23T22:59:26.858+00:00"
 via: cli
+retracted:
+  at: "2026-10-23T23:11:59.428+00:00"
+  by: human:ana
+  why: r010 (worked examples) and r012 (plain) both ran on seed 0 at 250 problems under last_number, so a pair of prompts has been run alike; only step by step has no 250-problem run under last_number
