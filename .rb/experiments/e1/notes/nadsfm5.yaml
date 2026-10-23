@@ -1,0 +1,7 @@
+rb: 1
+kind: note
+id: nadsfm5
+text: "The grader changed between runs: r004–r009 were graded with checker answer_tag, r010–r012 with checker last_number (configs/eval.yaml, commit 608a287, 2026-10-08; each run's config.yaml states its checker). logs/agent.log:581-584 (misses.py on r004–r006) finds 501 of 652 wrong plain replies have no 'Answer:' line and 211 of those end with the right number. Accuracies from the two graders are not on one scale."
+by: agent:claude-code
+at: "2026-10-23T22:59:39.030+00:00"
+via: cli

@@ -1,0 +1,11 @@
+rb: 1
+kind: note
+id: nnnxwkc
+text: "Left out of the record for now: the smoke run r001 (10 problems) and the 50-problem pilot r002/r003, all answer_tag at commit 929a9c4. Qwen's 49.6 (README.md:9) is on all 1319 test problems with an unstated prompt and answer reading; notes.md:5 keeps it as a reference, not a target, so no rule reads it."
+by: agent:claude-code
+at: "2026-10-23T22:59:27.624+00:00"
+via: cli
+retracted:
+  at: "2026-10-23T22:59:38.733+00:00"
+  by: agent:claude-code
+  why: cited README.md:9; the line is README.md:12

@@ -1,0 +1,7 @@
+rb: 1
+kind: note
+id: nqq2t72
+text: "The comparisons in logs/agent.log:644 (worked examples 22.9 above step by step, 26.5 above plain) and logs/agent.log:673-675 (worked examples past the 5-point rule; step by step at 500 problems 29.1 above plain) set last_number runs against answer_tag averages. Under one grader, no pair of prompts has been run alike yet: under last_number there is plain at 250 problems (seed 0), worked examples at 250 (seed 0), and step by step only at 500 (seed 0)."
+by: agent:claude-code
+at: "2026-10-23T22:59:26.858+00:00"
+via: cli

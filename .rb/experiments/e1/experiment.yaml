@@ -1,0 +1,248 @@
+rb: 1
+kind: experiment
+id: e1
+uid: exp_01M5NFRPMJWEETW6GDWFJ4Y81Z
+title: "Prompt style on 250 GSM8K test problems: plain, step by step, worked examples"
+questions:
+  - q1
+  - q2
+hypothesis: Telling Qwen2.5-0.5B-Instruct to think step by step makes it solve more grade-school math problems than the plain prompt; worked examples are compared against step by step
+why: README.md:3 and README.md:7
+varies:
+  - prompt
+settings:
+  - name: name
+    value: Qwen/Qwen2.5-0.5B-Instruct
+    status: verified
+    required: true
+    per_run: false
+    source:
+      kind: file
+      path: configs/model.yaml
+      key: name
+      commit: 32c91d6
+      resolved:
+        at: "2026-10-23T22:58:10.851+00:00"
+        commit: 32c91d6f13af48510004050b7d83eb32d7ec2030
+        sha256: 4a7da2d3b1084d36587aa4ca16582174d2a020876ddcad94b5eff9e9ce07d865
+        line: 2
+        text: "name: Qwen/Qwen2.5-0.5B-Instruct"
+        read: Qwen/Qwen2.5-0.5B-Instruct
+    set_by: agent:claude-code
+    set_at: "2026-10-23T22:58:10.829+00:00"
+    via: cli
+  - name: revision
+    value: 7ae557604adf67be50417f59c2c2f167def9a775
+    status: verified
+    required: true
+    per_run: false
+    source:
+      kind: file
+      path: configs/model.yaml
+      key: revision
+      commit: 32c91d6
+      resolved:
+        at: "2026-10-23T22:58:10.857+00:00"
+        commit: 32c91d6f13af48510004050b7d83eb32d7ec2030
+        sha256: 4a7da2d3b1084d36587aa4ca16582174d2a020876ddcad94b5eff9e9ce07d865
+        line: 3
+        text: "revision: 7ae557604adf67be50417f59c2c2f167def9a775"
+        read: 7ae557604adf67be50417f59c2c2f167def9a775
+    set_by: agent:claude-code
+    set_at: "2026-10-23T22:58:10.854+00:00"
+    via: cli
+  - name: dtype
+    value: bfloat16
+    status: verified
+    required: true
+    per_run: false
+    source:
+      kind: file
+      path: configs/model.yaml
+      key: dtype
+      commit: 32c91d6
+      resolved:
+        at: "2026-10-23T22:58:10.862+00:00"
+        commit: 32c91d6f13af48510004050b7d83eb32d7ec2030
+        sha256: 4a7da2d3b1084d36587aa4ca16582174d2a020876ddcad94b5eff9e9ce07d865
+        line: 5
+        text: "dtype: bfloat16"
+        read: bfloat16
+    set_by: agent:claude-code
+    set_at: "2026-10-23T22:58:10.860+00:00"
+    via: cli
+  - name: temperature
+    value: 0.7
+    status: verified
+    required: true
+    per_run: false
+    source:
+      kind: file
+      path: configs/sampling.yaml
+      key: temperature
+      commit: 32c91d6
+      resolved:
+        at: "2026-10-23T22:58:10.988+00:00"
+        commit: 32c91d6f13af48510004050b7d83eb32d7ec2030
+        sha256: fd45206434b9f7e012f1fe26311a9b8356d724bfbaccbf7ba5ec6110e2ca86af
+        line: 2
+        text: "temperature: 0.7"
+        read: 0.7
+    set_by: agent:claude-code
+    set_at: "2026-10-23T22:58:10.974+00:00"
+    via: cli
+  - name: top_p
+    value: 0.8
+    status: verified
+    required: true
+    per_run: false
+    source:
+      kind: file
+      path: configs/sampling.yaml
+      key: top_p
+      commit: 32c91d6
+      resolved:
+        at: "2026-10-23T22:58:10.995+00:00"
+        commit: 32c91d6f13af48510004050b7d83eb32d7ec2030
+        sha256: fd45206434b9f7e012f1fe26311a9b8356d724bfbaccbf7ba5ec6110e2ca86af
+        line: 3
+        text: "top_p: 0.8"
+        read: 0.8
+    set_by: agent:claude-code
+    set_at: "2026-10-23T22:58:10.992+00:00"
+    via: cli
+  - name: top_k
+    value: 20
+    status: verified
+    required: true
+    per_run: false
+    source:
+      kind: file
+      path: configs/sampling.yaml
+      key: top_k
+      commit: 32c91d6
+      resolved:
+        at: "2026-10-23T22:58:11.002+00:00"
+        commit: 32c91d6f13af48510004050b7d83eb32d7ec2030
+        sha256: fd45206434b9f7e012f1fe26311a9b8356d724bfbaccbf7ba5ec6110e2ca86af
+        line: 4
+        text: "top_k: 20"
+        read: 20
+    set_by: agent:claude-code
+    set_at: "2026-10-23T22:58:10.999+00:00"
+    via: cli
+  - name: repetition_penalty
+    value: 1.1
+    status: verified
+    required: true
+    per_run: false
+    source:
+      kind: file
+      path: configs/sampling.yaml
+      key: repetition_penalty
+      commit: 32c91d6
+      resolved:
+        at: "2026-10-23T22:58:11.008+00:00"
+        commit: 32c91d6f13af48510004050b7d83eb32d7ec2030
+        sha256: fd45206434b9f7e012f1fe26311a9b8356d724bfbaccbf7ba5ec6110e2ca86af
+        line: 5
+        text: "repetition_penalty: 1.1"
+        read: 1.1
+    set_by: agent:claude-code
+    set_at: "2026-10-23T22:58:11.005+00:00"
+    via: cli
+  - name: max_new_tokens
+    value: 512
+    status: verified
+    required: true
+    per_run: false
+    source:
+      kind: file
+      path: configs/sampling.yaml
+      key: max_new_tokens
+      commit: 32c91d6
+      resolved:
+        at: "2026-10-23T22:58:11.014+00:00"
+        commit: 32c91d6f13af48510004050b7d83eb32d7ec2030
+        sha256: fd45206434b9f7e012f1fe26311a9b8356d724bfbaccbf7ba5ec6110e2ca86af
+        line: 6
+        text: "max_new_tokens: 512"
+        read: 512
+    set_by: agent:claude-code
+    set_at: "2026-10-23T22:58:11.011+00:00"
+    via: cli
+  - name: split
+    value: test
+    status: verified
+    required: true
+    per_run: false
+    source:
+      kind: file
+      path: configs/eval.yaml
+      key: split
+      commit: 32c91d6
+      resolved:
+        at: "2026-10-23T22:58:11.125+00:00"
+        commit: 32c91d6f13af48510004050b7d83eb32d7ec2030
+        sha256: 2978624bfe282c256eaed1cf75246a3c706f4e061055345e9a7fe74a716d4ec8
+        line: 2
+        text: "split: test"
+        read: test
+    set_by: agent:claude-code
+    set_at: "2026-10-23T22:58:11.102+00:00"
+    via: cli
+  - name: subset_seed
+    value: 2026
+    status: verified
+    required: true
+    per_run: false
+    source:
+      kind: file
+      path: configs/eval.yaml
+      key: subset_seed
+      commit: 32c91d6
+      resolved:
+        at: "2026-10-23T22:58:11.136+00:00"
+        commit: 32c91d6f13af48510004050b7d83eb32d7ec2030
+        sha256: 2978624bfe282c256eaed1cf75246a3c706f4e061055345e9a7fe74a716d4ec8
+        line: 4
+        text: "subset_seed: 2026"
+        read: 2026
+    set_by: agent:claude-code
+    set_at: "2026-10-23T22:58:11.132+00:00"
+    via: cli
+  - name: seed
+    status: unknown
+    required: true
+    per_run: true
+    set_by: agent:claude-code
+    set_at: "2026-10-23T22:58:11.252+00:00"
+    via: cli
+  - name: checker
+    status: unknown
+    required: true
+    per_run: true
+    set_by: agent:claude-code
+    set_at: "2026-10-23T22:58:11.372+00:00"
+    via: cli
+  - name: problems
+    status: unknown
+    required: true
+    per_run: true
+    set_by: agent:claude-code
+    set_at: "2026-10-23T22:58:11.465+00:00"
+    via: cli
+  - name: population.unit
+    value: seed
+    status: provisional
+    required: false
+    per_run: false
+    source:
+      kind: note
+      note: each run is one sampling seed over the same fixed subset of test problems (configs/eval.yaml subset_seed)
+    set_by: agent:claude-code
+    set_at: "2026-10-23T22:58:11.586+00:00"
+    via: cli
+created_by: agent:claude-code
+created_at: "2026-10-23T22:58:05.586+00:00"
+via: cli

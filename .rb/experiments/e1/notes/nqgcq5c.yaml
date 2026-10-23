@@ -1,0 +1,7 @@
+rb: 1
+kind: note
+id: nqgcq5c
+text: "Planned, not run: configs/sweep.yaml (uncommitted) holds worked_examples on seeds 1 and 2, 250 problems; at the current configs/eval.yaml these would be graded with last_number, against step-by-step and plain seeds graded with answer_tag."
+by: agent:claude-code
+at: "2026-10-23T22:59:27.145+00:00"
+via: cli

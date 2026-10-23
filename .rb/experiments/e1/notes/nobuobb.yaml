@@ -1,0 +1,7 @@
+rb: 1
+kind: note
+id: nobuobb
+text: "q3 (how many problems) has no rule: r011 was run at 500 problems to ask whether 250 is enough (logs/agent.log, 2026-10-12), but it also changed the grader, and one seed at 500 gives no reseed spread there (logs/agent.log:669)."
+by: agent:claude-code
+at: "2026-10-23T22:59:39.312+00:00"
+via: cli

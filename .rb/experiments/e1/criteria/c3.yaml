@@ -1,0 +1,37 @@
+rb: 1
+kind: criterion
+id: c3
+experiment: e1
+statement: The claim that the step-by-step gain over plain holds on every seed is checked here
+metric: accuracy
+subject: step_by_step
+reference: plain
+where:
+  checker: answer_tag
+  problems: 250
+comparator: at_least
+target: 0.0
+over: each
+role: secondary
+min_n: 1
+origin: cited
+source:
+  kind: file
+  path: logs/agent.log
+  line: 557
+  quote: The gap holds on every seed.
+  resolved:
+    at: "2026-10-23T22:58:38.830+00:00"
+    sha256: d49a12fd8e19776d68b400288bdc6ca6ff77e6cfcca4be272f6603088768b94b
+    line: 557
+    text: "Averaged over the seeds, plain is at 13.1% and step by step at 16.7%, 3.6 points ahead. The seeds spread plain over 1.6 points (4 problems) and step by step over 3.6 points (9 problems): that much comes from reseeding alone. The gap holds on every seed. Each run's replies are in its replies.jsonl if you want to look at what the model writes."
+question_links:
+  - question: q1
+    question_text: Does telling a small AI model to think step by step make it solve more grade-school math problems?
+    declared_by: agent:claude-code
+    declared_at: "2026-10-23T22:58:38.800+00:00"
+    via: cli
+    session: 2877f2ce-23be-4c9a-b8b1-4c9449b7b917
+created_by: agent:claude-code
+created_at: "2026-10-23T22:58:38.800+00:00"
+via: cli

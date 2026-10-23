@@ -1,0 +1,110 @@
+rb: 1
+kind: run
+id: runfphig7
+uid: run_01M5NFT10T71F0ST5JBA0BVK1C
+experiment: e1
+metrics:
+  plain.accuracy: 12.8
+per_run:
+  seed: 1
+  checker: answer_tag
+  problems: 250
+produced_at: "2026-10-06T01:52:14.000+00:00"
+produced_basis: reported
+files:
+  - path: results/r005_plain_s1/replies.jsonl
+    sha256: 50a7d0eff8d9da34c2252f78b97cbb519a9e01e585c43cdfe849f8ad0db0a845
+    bytes: 258222
+  - path: results/r005_plain_s1/metrics.json
+    sha256: b56c3780c0aae62aa36ac3aa39c2340fcc29c935e5cc2d0a92c639a3f30077a0
+    bytes: 151
+inputs:
+  - resource: qwen25-05b-instruct
+    availability: present
+  - resource: gsm8k-test
+    availability: present
+    sha256: 3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14
+basis: file
+spec_sha256: c267e1da62d04344f3d54040f650eb2fce84a7177968bb127635bc3f28ae57b0
+settings:
+  name: Qwen/Qwen2.5-0.5B-Instruct
+  revision: 7ae557604adf67be50417f59c2c2f167def9a775
+  dtype: bfloat16
+  temperature: 0.7
+  top_p: 0.8
+  top_k: 20
+  repetition_penalty: 1.1
+  max_new_tokens: 512
+  split: test
+  subset_seed: 2026
+  plain.prompt: plain
+  step_by_step.prompt: step_by_step
+  worked_examples.prompt: worked_examples
+arm_specs:
+  plain: 6bc913281fce6e655c6ba411cf6be584e78a44f34fedd53f6798bde1580b2715
+  step_by_step: f93c7f6f0a4e811b41405780f8b7d36ac57b1e1cff2c8e70e1cf717f50b8b60c
+  worked_examples: 512b14026c10db8870bed03b6c82c149e400f28ca4385f9fe9a54c4603770413
+spec_frozen: false
+synthetic: false
+fingerprint: dc75c88d86858f6d051efabbbe13ecdee0bcaff18ba2089592d46b7512332ca4
+receipt:
+  at: "2026-10-23T22:58:48.897+00:00"
+  actor: agent:claude-code
+  actor_via: detected:CLAUDECODE
+  via: cli
+  rb_version: 0.6.0
+  command: python solve.py --prompt plain --seed 1 --out results/r005_plain_s1
+  session: 2877f2ce-23be-4c9a-b8b1-4c9449b7b917
+  agent:
+    name: claude-code
+    version: 2.1.304
+    provider: anthropic
+    provider_from: inferred
+    model: claude-opus-5-5
+    model_from: said
+  attached:
+    commit: 6adf8a50067e093830a647d62fce0d68bc332f70
+    branch: main
+    dirty: true
+    diff_sha256: ebcb8de43fa18dbcf12f8e9b5ba4e64e9d68aa5778437f21465f6d96cf9aaedc
+    untracked: 0
+    tree: a17e4a7aef595b3dbf5c7d422ae89e30abc8e19c
+  produced:
+    commit: 32c91d6
+    from: flag
+    existed:
+      at: "2026-10-06T01:52:14.829+00:00"
+      by: file
+  environment:
+    python: 3.12.15
+    platform: Linux-7.0.0-30-generic-x86_64-with-glibc2.43
+    rb: 0.6.0
+    pydantic: 2.14.1
+  config:
+    path: results/r005_plain_s1/config.yaml
+    sha256: 3355a2f8dcbe609ee212654e5b506bd739f119c99a1d716efb4b0fd5d8e887ea
+    matches:
+      - dtype
+      - max_new_tokens
+      - name
+      - prompt
+      - repetition_penalty
+      - revision
+      - split
+      - subset_seed
+      - temperature
+      - top_k
+      - top_p
+      - checker
+      - problems
+      - seed
+  command_seen:
+    by: log
+    path: results/r005_plain_s1/config.yaml
+    line: 1
+    sha256: 3355a2f8dcbe609ee212654e5b506bd739f119c99a1d716efb4b0fd5d8e887ea
+    written: "2026-10-06T01:42:22.888+00:00"
+note: results/r005_plain_s1
+created_by: agent:claude-code
+created_at: "2026-10-23T22:58:48.987+00:00"
+via: cli

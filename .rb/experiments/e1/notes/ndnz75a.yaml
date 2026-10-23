@@ -1,0 +1,7 @@
+rb: 1
+kind: note
+id: ndnz75a
+text: "Same prompt and seed, different grader: plain seed 0 gives 14.0 under answer_tag (results/r004_plain_s0) and 43.2 under last_number (results/r012_plain_s0); step by step seed 0 gives 18.8 at 250 problems under answer_tag (results/r007_step_s0) and 42.2 at 500 problems under last_number (results/r011_step_n500_s0). r012 was launched as a stability rerun (logs/agent.log, 2026-10-14) but differs from r004 in the grader, so it does not test reseeding stability. r012's config.yaml records dirty: true at commit 9ba0f86."
+by: agent:claude-code
+at: "2026-10-23T22:59:26.594+00:00"
+via: cli

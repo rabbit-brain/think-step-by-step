@@ -1,0 +1,7 @@
+rb: 1
+kind: note
+id: novbypy
+text: plain.prompt, step_by_step.prompt and worked_examples.prompt are sourced from each run's own config.yaml, written by the run; the sweep config before the runs lists the prompts only as a grid (configs/sweep.yaml at 32c91d6), which rb cannot read as one variant's value.
+by: agent:claude-code
+at: "2026-10-23T22:59:27.882+00:00"
+via: cli
